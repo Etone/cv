@@ -1,0 +1,60 @@
+:root {
+    --highlight-color: #7393c0;
+    --washedout-color: gray;
+}
+
+body {
+    padding: 0 2rem;
+    max-width: 900px;
+}
+
+section {
+    padding-bottom: 1.5rem;
+
+    h1 {
+        margin: 1rem 0;
+    }
+
+    hr {
+        color: var(--highlight-color);
+    }
+}
+
+#warning {
+    color: red;
+}
+
+.timeline {
+    list-style-type: disc;
+
+    .timeline-entry {
+        margin-bottom: 1rem;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    ::marker {
+        color: var(--highlight-color);
+    }
+
+    .timeline-entry-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 0 1rem 0;
+    }
+
+    .timeline-entry-title {
+        font-weight: bold;
+    }
+
+    .timeline-entry-company {
+        font-style: italic;
+    }
+
+    .timeline-entry-date {
+        color: var(--washedout-color);
+    }
+}
