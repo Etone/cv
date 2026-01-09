@@ -9,8 +9,6 @@ body {
 
 #tabular {
     section {
-        padding-bottom: 1.5rem;
-
         h1 {
             margin: 1rem 0;
         }
@@ -52,7 +50,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
 
     padding: 1rem 0 0 2rem;
 
@@ -138,5 +136,4 @@ p {
             margin-top: 0.7rem;
         }
     }
-
 }
